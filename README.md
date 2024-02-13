@@ -28,4 +28,4 @@ Scripts/install_SteamCMD.bat
 ## Start Server
 
 Run Scripts 
-Scripts/start_server_Enshrouded_JTown_Windows.bat.bat
+Scripts/start_server_Enshrouded_JTown_Windows.bat
