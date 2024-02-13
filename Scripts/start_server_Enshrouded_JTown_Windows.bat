@@ -1,6 +1,13 @@
 @echo off
 
 echo ------------------
+echo Config paths
+echo ------------------
+set GIT_PROJECT_PATH=%~dp0..\
+set SERVER_DATA_PATH=%GIT_PROJECT_PATH%\ServerData\
+set STEAMCMD_PATH=%GIT_PROJECT_PATH%\SteamCmd\steamcmd.exe
+
+echo ------------------
 echo Updating server
 echo ------------------
 call %STEAMCMD_PATH% +force_install_dir %SERVER_DATA_PATH% +login anonymous +app_update 2278520 validate +quit
