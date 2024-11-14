@@ -1,4 +1,8 @@
 # SteamCmd default
 SteamCmd/*
 
+# ServerData for EnshroudedServer (no Savegame)
+ServerData/*
+!ServerData/Enshrouded_server.json
+
 # Logs
