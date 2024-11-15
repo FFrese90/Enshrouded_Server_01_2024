@@ -6,7 +6,7 @@ ServerData/*
 !ServerData/Enshrouded_server.json
 
 # Secrets
-Scripts/private/own_secrets/own_secrets.py
+Scripts/private/server_secrets/server_secrets.py
 
 # Files
 *.pyc

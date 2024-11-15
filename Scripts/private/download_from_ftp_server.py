@@ -1,19 +1,26 @@
 import os
 from ftplib import FTP
-from own_secrets import own_secrets
+from server_secrets import server_secrets
 
 # FTP-Verbindungsdaten
-FTP_HOST = "saves.4netplayers.de"  # Ersetze durch die FTP-Server-Adresse
-FTP_USER = own_secrets.FTP_USER
-FTP_PASS = own_secrets.FTP_PASS
-FTP_REMOTE_DIR = "/1314901/savegame" # Ersetze durch das Zielverzeichnis auf dem Server
-LOCAL_DIR = os.path.join("..","..", "bak_Savegames")  # Der Ordner auf deinem lokalen PC, der die Savegames enthaelt
+FTP_HOST = server_secrets.FTP_HOST
+FTP_PORT = server_secrets.FTP_PORT
+FTP_USER = server_secrets.FTP_USER
+FTP_PASS = server_secrets.FTP_PASS
+FTP_REMOTE_DIR = server_secrets.FTP_REMOTE_DIR
+LOCAL_DIR = os.path.join("..","..", "Savegame")  # Der Ordner auf deinem lokalen PC, der die Savegames enthaelt
 
 def connect_to_ftp():
     """Stellt eine Verbindung zum FTP-Server her."""
-    ftp = FTP(FTP_HOST)
+    print('Connect to FTP')
+    ftp = FTP()
+    ftp.connect(FTP_HOST,FTP_PORT)
+    print('Login to FTP')
     ftp.login(FTP_USER, FTP_PASS)
+    print('Connected and logged in to FTP')
+
     return ftp
+
 
 def download_files(ftp, remote_dir, local_dir):
     """Laedt alle Dateien aus einem remote Verzeichnis in ein lokales Verzeichnis herunter."""
@@ -24,7 +31,17 @@ def download_files(ftp, remote_dir, local_dir):
     if not os.path.exists(local_dir):
         os.makedirs(local_dir)
 
-    files = ftp.nlst()
+    try:
+        files = ftp.nlist()
+    except Exception as error:
+        print(f"FTP NLST not worked: {error}")
+        try:
+            print("FTP DIR")
+            files = []
+            ftp.dir(lambda line: files.append(line.split()[-1]))
+        except Exception as error:
+            print(f"FTP DIR not worked: {error}")
+
     for file in files:
         remote_file_path = f"{remote_dir}/{file}"
         local_file_path = os.path.join(local_dir, file)
