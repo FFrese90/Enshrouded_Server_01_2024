@@ -1,0 +1,300 @@
+[I 00:00:00,015] [os] Started thread 0x000001808819e750 (Task-background07) with stack range (0x000000699ec00000-0x000000699f000000 size:4,194,304)
+[I 00:00:00,016] [os] Started thread 0x00000180881a0788 (BackgroundTask) with stack range (0x000000699f000000-0x000000699f100000 size:1,048,576)
+[I 00:00:00,016] [enshrouded] Create logfile
+[I 00:00:00,017] [os] Started thread 0x0000018087d9ddd0 (Task-background03) with stack range (0x000000699dc00000-0x000000699e000000 size:4,194,304)
+[I 00:00:00,017] enshrouded_server(detached HEAD) - version a19b06956a82d073048ab0121d6ced02ecc5d3b1 (master)
+[I 00:00:00,018] CPUs:
+[I 00:00:00,018]  Idx   Id  Group  LogIdx  CoreIdx  LLCIdx  NumaIdx  EffClass
+[I 00:00:00,019]   0   256    0       0        0       0       0        0
+[I 00:00:00,019]   1   257    0       1        0       0       0        0
+[I 00:00:00,022]   2   258    0       2        2       0       0        0
+[I 00:00:00,022]   3   259    0       3        2       0       0        0
+[I 00:00:00,023]   4   260    0       4        4       0       0        0
+[I 00:00:00,023]   5   261    0       5        4       0       0        0
+[I 00:00:00,024]   6   262    0       6        6       0       0        0
+[I 00:00:00,024]   7   263    0       7        6       0       0        0
+[I 00:00:00,025]   8   264    0       8        8       0       0        0
+[I 00:00:00,025]   9   265    0       9        8       0       0        0
+[I 00:00:00,026]  10   266    0      10       10       0       0        0
+[I 00:00:00,026]  11   267    0      11       10       0       0        0
+[I 00:00:00,027]  12   268    0      12       12       0       0        0
+[I 00:00:00,027]  13   269    0      13       12       0       0        0
+[I 00:00:00,027]  14   270    0      14       14       0       0        0
+[I 00:00:00,028]  15   271    0      15       14       0       0        0
+[I 00:00:00,028]  16   272    0      16       16       0       0        0
+[I 00:00:00,029]  17   273    0      17       16       0       0        0
+[I 00:00:00,030]  18   274    0      18       18       0       0        0
+[I 00:00:00,030]  19   275    0      19       18       0       0        0
+[I 00:00:00,032]  20   276    0      20       20      20      20        0
+[I 00:00:00,033]  21   277    0      21       20      20      20        0
+[I 00:00:00,033]  22   278    0      22       22      20      20        0
+[I 00:00:00,034]  23   279    0      23       22      20      20        0
+[I 00:00:00,034]  24   280    0      24       24      20      20        0
+[I 00:00:00,035]  25   281    0      25       24      20      20        0
+[I 00:00:00,035]  26   282    0      26       26      20      20        0
+[I 00:00:00,036]  27   283    0      27       26      20      20        0
+[I 00:00:00,036]  28   284    0      28       28      20      20        0
+[I 00:00:00,037]  29   285    0      29       28      20      20        0
+[I 00:00:00,037]  30   286    0      30       30      20      20        0
+[I 00:00:00,038]  31   287    0      31       30      20      20        0
+[I 00:00:00,038]  32   288    0      32       32      20      20        0
+[I 00:00:00,039]  33   289    0      33       32      20      20        0
+[I 00:00:00,039]  34   290    0      34       34      20      20        0
+[I 00:00:00,039]  35   291    0      35       34      20      20        0
+[I 00:00:00,040]  36   292    0      36       36      20      20        0
+[I 00:00:00,040]  37   293    0      37       36      20      20        0
+[I 00:00:00,042]  38   294    0      38       38      20      20        0
+[I 00:00:00,043]  39   295    0      39       38      20      20        0
+[I 00:00:00,043] CPU Types:
+[I 00:00:00,044]   Performance:  40   0000000000000000000000001111111111111111111111111111111111111111
+[I 00:00:00,044]   Efficient:     0   0000000000000000000000000000000000000000000000000000000000000000
+[I 00:00:00,045] [task] TaskSystemSetup:
+[I 00:00:00,045] [task]   mainWorkerCount:     2
+[I 00:00:00,046] [task]   nextMainWorkerIndex: 1
+[I 00:00:00,046] [task]   Group 'default'  worker:10  main:2
+[I 00:00:00,047] [task]      0:  Task-default00  0000000000000000000000000000000000000000000000000000000000000000
+[I 00:00:00,047] [task]      1:  Task-default01  0000000000000000000000000000000000000000000000000000000000000000
+[I 00:00:00,048] [task]      2:  Task-default02  0000000000000000000000001111111111111111111111111111111111111111
+[I 00:00:00,048] [task]      3:  Task-default03  0000000000000000000000001111111111111111111111111111111111111111
+[I 00:00:00,049] [task]      4:  Task-default04  0000000000000000000000001111111111111111111111111111111111111111
+[I 00:00:00,049] [task]      5:  Task-default05  0000000000000000000000001111111111111111111111111111111111111111
+[I 00:00:00,050] [task]      6:  Task-default06  0000000000000000000000001111111111111111111111111111111111111111
+[I 00:00:00,050] [task]      7:  Task-default07  0000000000000000000000001111111111111111111111111111111111111111
+[I 00:00:00,052] [task]      8:  Task-default08  0000000000000000000000001111111111111111111111111111111111111111
+[I 00:00:00,053] [task]      9:  Task-default09  0000000000000000000000001111111111111111111111111111111111111111
+[I 00:00:00,053] [task]   Group 'background'  worker:8  main:0
+[I 00:00:00,054] [task]      0:  Task-background00  0000000000000000000000001111111111111111111111111111111111111111
+[I 00:00:00,054] [task]      1:  Task-background01  0000000000000000000000001111111111111111111111111111111111111111
+[I 00:00:00,055] [task]      2:  Task-background02  0000000000000000000000001111111111111111111111111111111111111111
+[I 00:00:00,055] [task]      3:  Task-background03  0000000000000000000000001111111111111111111111111111111111111111
+[I 00:00:00,056] [task]      4:  Task-background04  0000000000000000000000001111111111111111111111111111111111111111
+[I 00:00:00,056] [task]      5:  Task-background05  0000000000000000000000001111111111111111111111111111111111111111
+[I 00:00:00,056] [task]      6:  Task-background06  0000000000000000000000001111111111111111111111111111111111111111
+[I 00:00:00,057] [task]      7:  Task-background07  0000000000000000000000001111111111111111111111111111111111111111
+[I 00:00:00,057] [app] start creation step Init
+[I 00:00:00,058] [app] start creation step Init_Steamworks
+[I 00:00:00,145] [app] start creation step Init_ResourceSystem
+[I 00:00:00,146] [resource] Loaded kfc file 'C:/Gameserver/varserver/1314901/enshrouded_server.kfc' with 30,813 resources.
+[I 00:00:00,154] [os] Started thread 0x00000180881a11c0 (ResourceContent) with stack range (0x000000699fe00000-0x000000699ff00000 size:1,048,576)
+[I 00:00:00,154] [os] Started thread 0x00000180881a1e88 (AsyncIo(ResourceContent)) with stack range (0x000000699ff00000-0x000000699ff80000 size:524,288)
+[I 00:00:00,261] [resource] Loaded 189,266,568 bytes of resource data in 105.94 ms
+[I 00:00:00,266] [app] start creation step Init_ResourcePreload_Start
+[I 00:00:00,267] [app] start creation step Init_ResourcePreload_Wait
+[I 00:00:00,267] [resource] Preload of 0 bytes finished after 457.00 us (0.00 MiB/s)
+[I 00:00:00,268] [app] start creation step Init_Version
+[I 00:00:00,269] Game Version (SVN): 602428
+[I 00:00:00,270] [app] start creation step Init_UserSystem
+[W 00:00:00,270] [user] Couldn't retrieve steam friends interface.
+[W 00:00:00,270] [user] Couldn't retrieve steam user interface.
+[I 00:00:00,271] [app] start creation step Init_OnlineSystem
+[I 00:00:00,272] [OnlineProviderSteam] started transition from 'Uninitialized' to 'Initialized' (current='<invalid>')!
+[I 00:00:00,273] [os] Started thread 0x00000180881a2f88 (P2pReceiveThread) with stack range (0x00000069a0280000-0x00000069a0380000 size:1,048,576)
+[I 00:00:00,273] [app] start creation step Init_Session
+[I 00:00:00,274] [os] Started thread 0x00000180881a1220 (P2pSendThread) with stack range (0x00000069a0380000-0x00000069a0480000 size:1,048,576)
+[I 00:00:00,275] [os] Started thread 0x00000180881a2a58 (Session) with stack range (0x00000069a0480000-0x00000069a0580000 size:1,048,576)
+[I 00:00:00,275] [app] start creation step Init_Tracking
+[I 00:00:00,275] [app] start creation step Init_SaveDataSystem
+[I 00:00:00,276] [os] Started thread 0x00000180b171fd38 (HttpClient) with stack range (0x00000069a0680000-0x00000069a0780000 size:1,048,576)
+[E 00:00:00,276] [savedata] Couldn't retrieve steam remote storage interface.
+[W 00:00:00,277] [savedata] Steam Cloud is disabled.
+[I 00:00:00,280] [app] start creation step Load_ResourceObject
+[I 00:00:00,280] [os] Started thread 0x00000180a8878610 (SaveData) with stack range (0x00000069a0780000-0x00000069a0880000 size:1,048,576)
+[I 00:00:00,281] [app] start creation step Init_TwitchDrops
+[I 00:00:00,282] [app] start creation step Init_ServerThread
+[E 00:00:00,282] [thread] Could not set Thread State, error: 87
+[I 00:00:00,283] [os] Started thread 0x00000180a887ea28 (HttpClient) with stack range (0x00000069a0880000-0x00000069a0980000 size:1,048,576)
+[I 00:00:00,283] [app] start creation step StartGame
+[I 00:00:00,284] [os] Started thread 0x00000180a887f620 (GameServer) with stack range (0x00000069a0980000-0x00000069a0a80000 size:1,048,576)
+[I 00:00:00,284] [app] start creation step Init
+[I 00:00:00,285] [app] start creation step StartGame
+[I 00:00:00,285] [Session] started transition from 'Lobby' to 'Host_Online' (current='<invalid>')!
+[I 00:00:00,285] [Session] 'PrepareGame' (up)!
+[I 00:00:00,290] -------------- Session ----------------
+[I 00:00:00,291] Machines:
+[I 00:00:00,291]   m#0(128): up 0 (0), down 0 (0), remote 0 (0), limit 2,048, lost 0, ping 9,223,372,036,854 ms, EstablishingBaseline
+[I 00:00:00,292] ---------------------------------------
+[I 00:00:00,378] [savedata] Start 'Open Container' on container 3ad85aea
+[I 00:00:00,378] [savedata] Updating 'Open Container' on container 3ad85aea
+[I 00:00:00,380] [savedata] Finished 'Open Container' on container 3ad85aea
+[I 00:00:00,381] [ecss] TaskQueue:  workerCount:8   taskWorkerCount:7   0000000000000000000000000000000000000000000000000000000011111110
+[E 00:00:00,389] [savedata] Could not load container, because data not big enough.
+[W 00:00:00,389] [savedata] Retry 1 operation on Container '3ad85aea'
+[E 00:00:00,895] [savedata] Could not load container, because data not big enough.
+[W 00:00:00,895] [savedata] Retry 2 operation on Container '3ad85aea'
+[E 00:00:01,401] [savedata] Could not load container, because data not big enough.
+[W 00:00:01,401] [savedata] Retry 3 operation on Container '3ad85aea'
+[I 00:00:01,682] [online] Server connected to Steam successfully
+[I 00:00:01,890] [online] Server is not VAC Secure!
+[I 00:00:01,891] [online] Server SteamId: 90208413856006174
+[I 00:00:01,891] [online] Public ipv4: 85.14.206.89
+[I 00:00:01,892] [OnlineProviderSteam] 'Initialize' (up)!
+[I 00:00:01,892] [OnlineProviderSteam] 'JoinOrCreateGame' (up)!
+[I 00:00:01,893] [OnlineProviderSteam] 'SetLobbyData' (up)!
+[I 00:00:01,893] [OnlineProviderSteam] 'JoinLocalPlayers' (up)!
+[I 00:00:01,894] [OnlineProviderSteam] 'ConnectToPeers' (up)!
+[I 00:00:01,894] [OnlineProviderSteam] finished transition from 'Uninitialized' to 'InGame' (current='InGame')!
+[I 00:00:01,895] [Session] 'HostOnline' (up)!
+[I 00:00:01,896] [Session] finished transition from 'Lobby' to 'Host_Online' (current='Host_Online')!
+[E 00:00:01,906] [savedata] Could not load container, because data not big enough.
+[W 00:00:01,906] [savedata] Retry 4 operation on Container '3ad85aea'
+[E 00:00:02,412] [savedata] Could not load container, because data not big enough.
+[W 00:00:02,412] [savedata] Retry 5 operation on Container '3ad85aea'
+[E 00:00:02,918] [savedata] Could not load container, because data not big enough.
+[W 00:00:02,918] [savedata] Retry 6 operation on Container '3ad85aea'
+[E 00:00:03,424] [savedata] Could not load container, because data not big enough.
+[W 00:00:03,424] [savedata] Retry 7 operation on Container '3ad85aea'
+[E 00:00:03,931] [savedata] Could not load container, because data not big enough.
+[W 00:00:03,931] [savedata] Retry 8 operation on Container '3ad85aea'
+[E 00:00:04,437] [savedata] Could not load container, because data not big enough.
+[W 00:00:04,437] [savedata] Retry 9 operation on Container '3ad85aea'
+[E 00:00:04,943] [savedata] Could not load container, because data not big enough.
+[W 00:00:04,943] [savedata] Retry 10 operation on Container '3ad85aea'
+[E 00:00:05,449] [savedata] Could not load container, because data not big enough.
+[W 00:00:05,449] [savedata] Retry 11 operation on Container '3ad85aea'
+[E 00:00:05,955] [savedata] Could not load container, because data not big enough.
+[W 00:00:05,955] [savedata] Retry 12 operation on Container '3ad85aea'
+[E 00:00:06,461] [savedata] Could not load container, because data not big enough.
+[W 00:00:06,462] [savedata] Retry 13 operation on Container '3ad85aea'
+[E 00:00:06,967] [savedata] Could not load container, because data not big enough.
+[W 00:00:06,967] [savedata] Retry 14 operation on Container '3ad85aea'
+[E 00:00:07,473] [savedata] Could not load container, because data not big enough.
+[W 00:00:07,474] [savedata] Retry 15 operation on Container '3ad85aea'
+[E 00:00:07,979] [savedata] Could not load container, because data not big enough.
+[W 00:00:07,980] [savedata] Retry 16 operation on Container '3ad85aea'
+[E 00:00:08,485] [savedata] Could not load container, because data not big enough.
+[W 00:00:08,486] [savedata] Retry 17 operation on Container '3ad85aea'
+[E 00:00:08,992] [savedata] Could not load container, because data not big enough.
+[W 00:00:08,992] [savedata] Retry 18 operation on Container '3ad85aea'
+[E 00:00:09,498] [savedata] Could not load container, because data not big enough.
+[W 00:00:09,498] [savedata] Retry 19 operation on Container '3ad85aea'
+[E 00:00:10,004] [savedata] Could not load container, because data not big enough.
+[W 00:00:10,005] [savedata] Retry 20 operation on Container '3ad85aea'
+[E 00:00:10,510] [savedata] Could not load container, because data not big enough.
+[I 00:00:10,511] [user] Started User Interaction: ReadError
+[E 00:00:10,562] [savedata] Interaction for container 3ad85aea failed with error canceled. the container will be close immediately.
+[E 00:00:10,566] [app] Critical Save data System Failure
+[I 00:00:10,566] [app] start destruction step StartGame
+[I 00:00:10,567] [app] start destruction step Init
+[I 00:00:10,593] [TerraformingEfficiencyRegistry] Finished loading.
+[I 00:00:10,620] [ecs] Nobuild zones changed
+[I 00:00:10,620] [ecs] Build zones changed
+[I 00:00:10,621] [ecs] Build zones changed
+[I 00:00:10,621] [ecs] PlayableArea zones changed
+[I 00:00:10,633] [guid_registry] VoxelBlueprintRegistry: Finished loading entry e284b901-c3dd-4282-8a4e-0a618e5763f5.
+[I 00:00:10,634] [guid_registry] VoxelBlueprintRegistry: Finished loading entry 27a9e067-4b9f-45cf-b966-208a5ecbd53b.
+[I 00:00:10,634] [guid_registry] VoxelBlueprintRegistry: Finished loading entry 85e3baea-7c93-4d6f-b1be-42f79b036761.
+[I 00:00:10,635] [guid_registry] VoxelBlueprintRegistry: Finished loading entry 28c4b2ca-4a01-4ba9-9e05-49c871df6904.
+[I 00:00:10,635] [guid_registry] VoxelBlueprintRegistry: Finished loading entry ec28c5d5-9d23-413e-b238-781157fb2f65.
+[I 00:00:10,636] [guid_registry] VoxelBlueprintRegistry: Finished loading entry 5d9bd376-5b7f-4db4-8f2e-6a3e564194b1.
+[I 00:00:10,636] [guid_registry] VoxelBlueprintRegistry: Finished loading entry 34aa0c3c-9a88-4f8b-a070-64827a5fdabf.
+[I 00:00:10,777] [server] Start Saving
+[E 00:00:10,787] [server] Failed to save Known Users Data. 'not found'
+[E 00:00:10,788] [server] Failed to save Knowledge Data. not found
+[E 00:00:10,788] [server] Failed to Save. Retry 1
+[E 00:00:10,799] [server] Failed to save Known Users Data. 'not found'
+[E 00:00:10,800] [server] Failed to save Knowledge Data. not found
+[E 00:00:10,800] [server] Failed to Save. Retry 2
+[E 00:00:10,813] [server] Failed to save Known Users Data. 'not found'
+[E 00:00:10,814] [server] Failed to save Knowledge Data. not found
+[E 00:00:10,814] [server] Failed to Save. Retry 3
+[E 00:00:10,826] [server] Failed to save Known Users Data. 'not found'
+[E 00:00:10,827] [server] Failed to save Knowledge Data. not found
+[E 00:00:10,827] [server] Failed to Save. Retry 4
+[E 00:00:10,840] [server] Failed to save Known Users Data. 'not found'
+[E 00:00:10,841] [server] Failed to save Knowledge Data. not found
+[E 00:00:10,841] [server] Failed to Save. Retry 5
+[E 00:00:10,852] [server] Failed to save Known Users Data. 'not found'
+[E 00:00:10,852] [server] Failed to save Knowledge Data. not found
+[I 00:00:10,866] MaxClientComponents: 1
+[I 00:00:10,867] Snapshot took 1.96 ms:  Entities: 1,141 (480,552 bytes)  Storages: 37 (135,568 bytes)  Chunks: 41 (502,074 / 2,686,976 bytes)  ClientComps: 8,032 bytes  Templates: 3,144  TotalSize: ~3,332,832
+[I 00:00:10,868] Removed 0 duplicates
+[I 00:00:10,869] VoxelSaveSize: 0
+[I 00:00:10,906] [ecss] writeEntitySerializationContext:
+[I 00:00:10,907] [ecss]   Templates: 1 (105 bytes) Components: 4 (1,504 bytes)  Size: 1,609
+[I 00:00:10,907] [ecss]   Entities: 1 (0 children)
+[I 00:00:10,918] [server] Failed to save not found
+[I 00:00:30,295] -------------- Session ----------------
+[I 00:00:30,295] Machines:
+[I 00:00:30,296]   m#0(128): up 0 (0), down 0 (0), remote 0 (0), limit 2,048, lost 0, ping 9,223,372,036,854 ms, EstablishingBaseline
+[I 00:00:30,296] ---------------------------------------
+[I 00:01:00,295] -------------- Session ----------------
+[I 00:01:00,295] Machines:
+[I 00:01:00,296]   m#0(128): up 0 (0), down 0 (0), remote 0 (0), limit 2,048, lost 0, ping 9,223,372,036,854 ms, EstablishingBaseline
+[I 00:01:00,296] ---------------------------------------
+[I 00:01:30,295] -------------- Session ----------------
+[I 00:01:30,295] Machines:
+[I 00:01:30,296]   m#0(128): up 0 (0), down 0 (0), remote 0 (0), limit 2,048, lost 0, ping 9,223,372,036,854 ms, EstablishingBaseline
+[I 00:01:30,296] ---------------------------------------
+[I 00:02:00,295] -------------- Session ----------------
+[I 00:02:00,295] Machines:
+[I 00:02:00,296]   m#0(128): up 0 (0), down 0 (0), remote 0 (0), limit 2,048, lost 0, ping 9,223,372,036,854 ms, EstablishingBaseline
+[I 00:02:00,296] ---------------------------------------
+[I 00:02:30,300] -------------- Session ----------------
+[I 00:02:30,301] Machines:
+[I 00:02:30,301]   m#0(128): up 0 (0), down 0 (0), remote 0 (0), limit 2,048, lost 0, ping 9,223,372,036,854 ms, EstablishingBaseline
+[I 00:02:30,301] ---------------------------------------
+[I 00:03:00,300] -------------- Session ----------------
+[I 00:03:00,301] Machines:
+[I 00:03:00,301]   m#0(128): up 0 (0), down 0 (0), remote 0 (0), limit 2,048, lost 0, ping 9,223,372,036,854 ms, EstablishingBaseline
+[I 00:03:00,302] ---------------------------------------
+[I 00:03:30,301] -------------- Session ----------------
+[I 00:03:30,301] Machines:
+[I 00:03:30,302]   m#0(128): up 0 (0), down 0 (0), remote 0 (0), limit 2,048, lost 0, ping 9,223,372,036,854 ms, EstablishingBaseline
+[I 00:03:30,302] ---------------------------------------
+[I 00:04:00,305] -------------- Session ----------------
+[I 00:04:00,306] Machines:
+[I 00:04:00,306]   m#0(128): up 0 (0), down 0 (0), remote 0 (0), limit 2,048, lost 0, ping 9,223,372,036,854 ms, EstablishingBaseline
+[I 00:04:00,307] ---------------------------------------
+[I 00:04:30,310] -------------- Session ----------------
+[I 00:04:30,310] Machines:
+[I 00:04:30,311]   m#0(128): up 0 (0), down 0 (0), remote 0 (0), limit 2,048, lost 0, ping 9,223,372,036,854 ms, EstablishingBaseline
+[I 00:04:30,311] ---------------------------------------
+[I 00:05:00,315] -------------- Session ----------------
+[I 00:05:00,316] Machines:
+[I 00:05:00,316]   m#0(128): up 0 (0), down 0 (0), remote 0 (0), limit 2,048, lost 0, ping 9,223,372,036,854 ms, EstablishingBaseline
+[I 00:05:00,316] ---------------------------------------
+[I 00:05:10,779] [server] Start Saving
+[I 00:05:30,315] -------------- Session ----------------
+[I 00:05:30,316] Machines:
+[I 00:05:30,316]   m#0(128): up 0 (0), down 0 (0), remote 0 (0), limit 2,048, lost 0, ping 9,223,372,036,854 ms, EstablishingBaseline
+[I 00:05:30,317] ---------------------------------------
+[I 00:06:00,320] -------------- Session ----------------
+[I 00:06:00,321] Machines:
+[I 00:06:00,321]   m#0(128): up 0 (0), down 0 (0), remote 0 (0), limit 2,048, lost 0, ping 9,223,372,036,854 ms, EstablishingBaseline
+[I 00:06:00,321] ---------------------------------------
+[I 00:06:30,325] -------------- Session ----------------
+[I 00:06:30,326] Machines:
+[I 00:06:30,326]   m#0(128): up 0 (0), down 0 (0), remote 0 (0), limit 2,048, lost 0, ping 9,223,372,036,854 ms, EstablishingBaseline
+[I 00:06:30,327] ---------------------------------------
+[I 00:07:00,330] -------------- Session ----------------
+[I 00:07:00,331] Machines:
+[I 00:07:00,331]   m#0(128): up 0 (0), down 0 (0), remote 0 (0), limit 2,048, lost 0, ping 9,223,372,036,854 ms, EstablishingBaseline
+[I 00:07:00,332] ---------------------------------------
+[I 00:07:30,331] -------------- Session ----------------
+[I 00:07:30,331] Machines:
+[I 00:07:30,332]   m#0(128): up 0 (0), down 0 (0), remote 0 (0), limit 2,048, lost 0, ping 9,223,372,036,854 ms, EstablishingBaseline
+[I 00:07:30,332] ---------------------------------------
+[I 00:08:00,335] -------------- Session ----------------
+[I 00:08:00,336] Machines:
+[I 00:08:00,336]   m#0(128): up 0 (0), down 0 (0), remote 0 (0), limit 2,048, lost 0, ping 9,223,372,036,854 ms, EstablishingBaseline
+[I 00:08:00,337] ---------------------------------------
+[I 00:08:30,335] -------------- Session ----------------
+[I 00:08:30,336] Machines:
+[I 00:08:30,336]   m#0(128): up 0 (0), down 0 (0), remote 0 (0), limit 2,048, lost 0, ping 9,223,372,036,854 ms, EstablishingBaseline
+[I 00:08:30,337] ---------------------------------------
+[I 00:09:00,340] -------------- Session ----------------
+[I 00:09:00,341] Machines:
+[I 00:09:00,341]   m#0(128): up 0 (0), down 0 (0), remote 0 (0), limit 2,048, lost 0, ping 9,223,372,036,854 ms, EstablishingBaseline
+[I 00:09:00,342] ---------------------------------------
+[I 00:09:30,341] -------------- Session ----------------
+[I 00:09:30,341] Machines:
+[I 00:09:30,342]   m#0(128): up 0 (0), down 0 (0), remote 0 (0), limit 2,048, lost 0, ping 9,223,372,036,854 ms, EstablishingBaseline
+[I 00:09:30,342] ---------------------------------------
+[I 00:10:00,345] -------------- Session ----------------
+[I 00:10:00,346] Machines:
+[I 00:10:00,347]   m#0(128): up 0 (0), down 0 (0), remote 0 (0), limit 2,048, lost 0, ping 9,223,372,036,854 ms, EstablishingBaseline
+[I 00:10:00,347] ---------------------------------------
+[I 00:10:30,350] -------------- Session ----------------
+[I 00:10:30,351] Machines:
+[I 00:10:30,351]   m#0(128): up 0 (0), down 0 (0), remote 0 (0), limit 2,048, lost 0, ping 9,223,372,036,854 ms, EstablishingBaseline
+[I 00:10:30,352] ---------------------------------------
