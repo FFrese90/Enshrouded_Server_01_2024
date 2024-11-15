@@ -5,4 +5,8 @@ SteamCmd/*
 ServerData/*
 !ServerData/Enshrouded_server.json
 
-# Logs
+# Secrets
+Scripts/private/own_secrets/own_secrets.py
+
+# Files
+*.pyc
