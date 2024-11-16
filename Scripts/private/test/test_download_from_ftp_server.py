@@ -5,12 +5,12 @@ import os
 import sys
 here = os.path.dirname(__file__)
 sys.path.append(os.path.join(here, '..'))
-from download_from_ftp_server import download_files  # Angenommene Funktion
 
 class TestFTPDownload(unittest.TestCase):
     @patch.dict('sys.modules', {'server_secrets': MagicMock(server_secrets={'host': 'mock_host', 'username': 'mock_user', 'password': 'mock_pass'})})
     @patch('ftplib.FTP')
     def test_download_files_success(self, MockFTP):
+        from download_from_ftp_server import download_files  # Angenommene Funktion
         # Mock FTP-Verbindung
         mock_ftp = MockFTP.return_value
         mock_ftp.login.return_value = None
