@@ -32,7 +32,6 @@ jobs:
 
   test:
     runs-on: windows-latest
-    needs: lint
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -55,7 +54,6 @@ jobs:
 
   loc:
     runs-on: windows-latest
-    needs: lint
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2

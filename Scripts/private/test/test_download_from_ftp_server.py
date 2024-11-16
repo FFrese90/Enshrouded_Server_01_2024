@@ -19,7 +19,7 @@ class TestFTPDownload(unittest.TestCase):
         # Testen der Download-Funktion
         result = download_files('ftp.example.com', 'user', 'password', 'remote_path', 'local_path')
 
-        # Sicherstellen, dass FTP-Verbindung geöffnet und Datei heruntergeladen wurde
+        # Sicherstellen, dass FTP-Verbindung geï¿½ffnet und Datei heruntergeladen wurde
         mock_ftp.login.assert_called_once_with('user', 'password')
         mock_ftp.retrbinary.assert_called_once()
         self.assertTrue(result)
