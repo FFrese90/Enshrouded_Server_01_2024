@@ -1,0 +1,69 @@
+name: Python CI with Coverage and LoC
+
+on:
+  push:
+    branches:
+      - master
+      - develop
+  pull_request:
+    branches:
+      - develop
+
+jobs:
+  lint:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install flake8 coverage
+
+      - name: Run linter
+        run: |
+          flake8 .
+
+  test:
+    runs-on: windows-latest
+    needs: lint
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install coverage
+
+      - name: Run unit tests with coverage
+        run: |
+          coverage run -m unittest discover
+          coverage report
+          coverage html
+
+  loc:
+    runs-on: windows-latest
+    needs: lint
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install cloc
+        run: |
+          choco install cloc
+
+      - name: Count lines of code
+        run: |
+          cloc . --report-file=cloc_report.html --html
