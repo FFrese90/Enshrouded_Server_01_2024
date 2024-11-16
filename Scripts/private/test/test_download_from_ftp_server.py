@@ -1,5 +1,5 @@
 import unittest
-from unittest.mock import patch, MagicMock
+from unittest.mock import MagicMock, patch
 
 import os
 import sys
@@ -8,7 +8,7 @@ sys.path.append(os.path.join(here, '..'))
 from download_from_ftp_server import download_files  # Angenommene Funktion
 
 class TestFTPDownload(unittest.TestCase):
-    
+    @patch.dict('sys.modules', {'server_secrets': MagicMock(server_secrets={'host': 'mock_host', 'username': 'mock_user', 'password': 'mock_pass'})})
     @patch('ftplib.FTP')
     def test_download_files_success(self, MockFTP):
         # Mock FTP-Verbindung
