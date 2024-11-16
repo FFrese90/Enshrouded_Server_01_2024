@@ -26,6 +26,7 @@ class TestFTPDownload(unittest.TestCase):
 
     @patch('ftplib.FTP')
     def test_download_files_failure(self, MockFTP):
+        from download_from_ftp_server import download_files  # Angenommene Funktion
         # Mock FTP-Verbindung mit Fehler
         mock_ftp = MockFTP.return_value
         mock_ftp.login.side_effect = Exception("Login failed")
