@@ -23,7 +23,7 @@ class TestFTPDownload(unittest.TestCase):
         mock_ftp.login.assert_called_once_with('user', 'password')
         mock_ftp.retrbinary.assert_called_once()
         self.assertTrue(result)
-
+    @patch.dict('sys.modules', {'server_secrets': MagicMock(server_secrets={'host': 'mock_host', 'username': 'mock_user', 'password': 'mock_pass'})})
     @patch('ftplib.FTP')
     def test_download_files_failure(self, MockFTP):
         from download_from_ftp_server import download_files  # Angenommene Funktion
